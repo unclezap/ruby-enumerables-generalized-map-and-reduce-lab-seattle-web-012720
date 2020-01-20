@@ -13,6 +13,12 @@ def map(array)
   return negs
 end
 
-def reduce(array)
-  
+def reduce(array, num = 0)
+  total=0
+  i=0
+  while i < array.length do
+    total=yield[i] + total
+    i += 1
+  end
+  return total
 end
