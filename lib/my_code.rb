@@ -13,7 +13,7 @@ def map(array)
   return negs
 end
 
-def reduce(array, vtest = 0)
+def reduce(array, vtest = nil)
   x = vtest
   i = 0
   while i < array.length do
