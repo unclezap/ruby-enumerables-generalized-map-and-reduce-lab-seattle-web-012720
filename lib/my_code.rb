@@ -13,7 +13,7 @@ def map(array)
   return negs
 end
 
-def reduce(array, num = 0)
+def reduce(array)
   
   total=0
   if
