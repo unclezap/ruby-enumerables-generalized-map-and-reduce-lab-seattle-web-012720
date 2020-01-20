@@ -17,7 +17,7 @@ def reduce(array, value = 0)
   
   total = 0
   
-  if yield(value)
+  if defined?yield(value)
     total = yield(value)
   else
     total = 0
