@@ -18,7 +18,7 @@ def reduce(array, vtest = nil)
   x = vtest
   i = 0
   else
-  x = 0
+  x = array[0]
   i = 1
   end 
   
