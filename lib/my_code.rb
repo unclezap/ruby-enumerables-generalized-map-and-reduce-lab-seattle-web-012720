@@ -15,5 +15,5 @@ end
 
 def reduce(array, vtest = 0)
   x = vtest
-  x.push(yield(array))
+  x = yield(array) + x
 end
