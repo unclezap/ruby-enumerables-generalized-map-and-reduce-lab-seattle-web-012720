@@ -13,14 +13,6 @@ def map(array)
   return negs
 end
 
-def reduce(array, vtest = 0)
-  x = []
-  x.push(vtest)
-  y = vtest
-  i = 0
-  while i < yield(array)
-  y = yield(array) + x
-  i += 1
-  end
-  return 
+def reduce(array, vtest = nil)
+  return array
 end
