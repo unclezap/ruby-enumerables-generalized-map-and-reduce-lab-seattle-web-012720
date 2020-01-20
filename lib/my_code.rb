@@ -16,6 +16,7 @@ end
 def reduce(array, num = 0)
   
   total=0
+  if
   i=0
   while i < array.length do
     total=yield[i] + total
