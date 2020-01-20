@@ -18,7 +18,7 @@ def reduce(array, vtest = 0)
   i = 0
   while i < array.length do
   if array[i]
-  x = array[i] + x
+  x = yield(array[i]) + x
   end
   i +=1
   end
