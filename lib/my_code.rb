@@ -1,5 +1,6 @@
 # Your Code Here
 def map(array)
+  originals = []
   originals = yield if block_given?
   negs =[]
   i = 0
