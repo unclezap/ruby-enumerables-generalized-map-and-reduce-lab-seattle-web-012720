@@ -14,5 +14,6 @@ def map(array)
 end
 
 def reduce(array, vtest = 0)
-  return yield(array)
+  x =[]
+  yield(array)
 end
