@@ -17,12 +17,6 @@ def reduce(array, value = 0)
   
   total = 0
   
-  if defined?yield(value)
-    total = yield(value)
-  else
-    total = 0
-  end
-  
   i=0
   while i < array.length do
     total=yield(array[i]) + total
