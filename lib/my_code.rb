@@ -1,7 +1,6 @@
 # Your Code Here
 def map(array)
-  yield
-  negs=[]
+  negs = yield
   i = 0
   while i < array.length do
     negs.push(array.length[i]*-1)
