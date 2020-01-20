@@ -13,9 +13,9 @@ def map(array)
   return negs
 end
 
-def reduce(array, value = 0)
+def reduce(array, vtest = 0)
   
-  total = yield(value)
+  total = yield(vtest)
   
   
   return total
