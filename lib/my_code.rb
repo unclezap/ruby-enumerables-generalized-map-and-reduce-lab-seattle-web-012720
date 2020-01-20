@@ -1,7 +1,7 @@
 # Your Code Here
 def map(array)
   negs = []
-  if !yield.nil?
+  if yield.nil?
     originals = yield
     i = 0
     while i < originals.length do
