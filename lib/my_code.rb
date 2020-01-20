@@ -1,11 +1,14 @@
 # Your Code Here
 def map(array)
-  if yield.given
-  i = 0
-  while i < originals.length do
-    negs.push(originals.length[i]*-1)
-    i += 1
-  end
+  negs = []
+  if !yield.nil?
+    originals = yield
+    i = 0
+    while i < originals.length do
+      negs.push(originals.length[i]*-1)
+      i += 1
+   end
+end
   
   return negs
 end
