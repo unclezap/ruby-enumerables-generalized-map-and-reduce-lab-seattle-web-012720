@@ -2,6 +2,7 @@
 def map(array = [])
   
   negs =[]
+  newneg=[]
   i = 0
   while i < array.length do
     newneg=yield(array[i]) * -1
