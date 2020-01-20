@@ -10,5 +10,5 @@ def map(array = [])
     i += 1
   end
   
-  return negs
+  return newneg
 end
