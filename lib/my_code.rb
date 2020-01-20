@@ -14,11 +14,13 @@ def map(array)
 end
 
 def reduce(array, vtest = 0)
-  x = vtest
+  x = []
+  x.push(vtest)
+  y = vtest
   i = 0
   while i < yield(array)
-  x = yield(array) + x
+  y = yield(array) + x
   i += 1
   end
-  return x
+  return 
 end
