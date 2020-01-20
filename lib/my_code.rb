@@ -5,7 +5,7 @@ def map(array)
     originals = yield
     i = 0
     while i < originals.length do
-      negs.push(originals.length[i] * -1)
+      negs.push( originals.length[i] * -1 )
       i += 1
    end
 end
