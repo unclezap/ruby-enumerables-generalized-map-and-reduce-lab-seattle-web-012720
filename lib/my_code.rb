@@ -15,8 +15,10 @@ end
 
 def reduce(array, vtest = 0)
   x = vtest
-  
-  
+  i = 0
+  while i < yield(array)
   x = yield(array) + x
-  return yield(array[0])
+  i += 1
+  end
+  return x
 end
