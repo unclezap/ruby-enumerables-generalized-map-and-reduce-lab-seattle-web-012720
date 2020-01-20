@@ -4,7 +4,7 @@ def map(array)
   negs =[]
   i = 0
   while i < originals.length do
-    negs.push(array.length[i]*-1)
+    negs.push(originals.length[i]*-1)
     i += 1
   end
   
