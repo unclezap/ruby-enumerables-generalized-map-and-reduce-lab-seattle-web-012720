@@ -1,5 +1,5 @@
 # Your Code Here
-def map(array = [])
+def map(array)
   
   negs =[]
   newneg=0
