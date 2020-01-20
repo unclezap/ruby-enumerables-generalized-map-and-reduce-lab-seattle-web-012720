@@ -15,11 +15,11 @@ end
 
 def reduce(array, value = 0)
   
-  total=0
+  total=value
   
   i=0
   while i < array.length do
-    total=yield[i] + total
+    total=yield(array[i]) + value
     i += 1
   end
   return total
