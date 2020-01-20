@@ -12,3 +12,7 @@ def map(array)
   
   return negs
 end
+
+def reduce(array)
+  
+end
