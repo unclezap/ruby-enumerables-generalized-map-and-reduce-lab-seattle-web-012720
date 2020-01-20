@@ -6,5 +6,6 @@ def map(array)
     negs.push(array.length[i]*-1)
     i += 1
   end
+  yield
   return negs
 end
