@@ -15,5 +15,5 @@ end
 
 def reduce(array, vtest = 0)
   x =[]
-  yield(array)
+  x.push(yield(array))
 end
