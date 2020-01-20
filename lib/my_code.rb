@@ -17,7 +17,7 @@ def reduce(array, vtest = 0)
   x = vtest
   i = 0
   while i < array.length do
-  if array[i] == false
+  if array[i]
   x = array[i] + x
   end
   i +=1
