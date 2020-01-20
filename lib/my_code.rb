@@ -13,6 +13,6 @@ def map(array)
   return negs
 end
 
-def reduce(array, vtest = nil)
+def reduce(array, vtest = 0)
   return array
 end
